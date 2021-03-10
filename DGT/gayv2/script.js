@@ -5,7 +5,7 @@ let gayps = 0;
 let Tgay = 0;
 function click() {
     gay += gaypc;
-    score += Tgay;
+    score += gaypc;
 }
 
 
