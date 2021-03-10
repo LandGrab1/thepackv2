@@ -1,3 +1,4 @@
+const cps =  "setInterval(function renderCoins()";
 let gay = 0;
 let gaypc = 1;
 let gayps = 0;
