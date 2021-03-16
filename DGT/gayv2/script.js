@@ -1,18 +1,28 @@
 const cps =  "setInterval(function renderCoins()";
 let gay = 0;
-let gaypc = 1;
+let gaypc = 10;
 let gayps = 0;
 let Tgay = 0;
 let gaya;
-function click() {
+
+
+function genprices() {
+    var GaypspriceA = Gaypsprice.toFixed(2);
+    document.getElementById("gen1").innerHTML = "price: " + GaypspriceA;
+}
+
+
+function clickG() {
     gay += gaypc;
     score += gaypc;
     console.log(gay);
+    Gaypsprice *= 1.3;
 }
 function bvbux(){
-    if(gay >= 30){
+    if(gay >= GaypspriceA){
         gayps += 1;
         gay -= 30;
+        genprices()
     }
     else {
         alert("your not gay enough to buy vbux")
@@ -25,13 +35,15 @@ function bvbux(){
 
 
 
-
-setInterval(function renderCoins() {
-    gaya = gay.toFixed(2);
-    document.getElementById("cringe").innerHTML = "Gay: " + gaya;
-    document.getElementById("cringePS").innerHTML = "Gay per second: " + gayps;
-
+setInterval(function persec() {
+    gay += gayps;
 }, 1000)
+setInterval(function renderGay() {
+    gaya = gay.toFixed(2);
+    document.getElementById("gay").innerHTML = "Gay: " + gaya;
+    document.getElementById("gayps").innerHTML = "Gay per second: " + gayps;
+
+}, 100)
 // 5/10/20 changed all values from gays to cringe
 // default score and prestige amounts
 //var score = 0;
