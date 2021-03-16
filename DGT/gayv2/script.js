@@ -7,6 +7,7 @@ let gaya;
 function click() {
     gay += gaypc;
     score += gaypc;
+    console.log(gay);
 }
 function bvbux(){
     if(gay >= 30){
@@ -28,9 +29,9 @@ function bvbux(){
 setInterval(function renderCoins() {
     gaya = gay.toFixed(2);
     document.getElementById("cringe").innerHTML = "Gay: " + gaya;
-    document.getElementById("cringePS").innerHTML = "Cringe per second: " + cringeps;
+    document.getElementById("cringePS").innerHTML = "Gay per second: " + gayps;
 
-})
+}, 1000)
 // 5/10/20 changed all values from gays to cringe
 // default score and prestige amounts
 //var score = 0;
