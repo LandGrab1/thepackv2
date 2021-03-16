@@ -3,11 +3,20 @@ let gay = 0;
 let gaypc = 1;
 let gayps = 0;
 let Tgay = 0;
+let gaya;
 function click() {
     gay += gaypc;
     score += gaypc;
 }
-
+function bvbux(){
+    if(gay >= 30){
+        gayps += 1;
+        gay -= 30;
+    }
+    else {
+        alert("your not gay enough to buy vbux")
+    }
+}
 
 
 
