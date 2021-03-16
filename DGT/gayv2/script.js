@@ -26,7 +26,7 @@ function bvbux(){
 
 
 setInterval(function renderCoins() {
-    var gaya = gay.toFixed(2);
+    gaya = gay.toFixed(2);
     document.getElementById("cringe").innerHTML = "Gay: " + gaya;
     document.getElementById("cringePS").innerHTML = "Cringe per second: " + cringeps;
 
