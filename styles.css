@@ -48,6 +48,18 @@ body {
     padding-right: 10%;
     float: left;
 }
+#news {
+    background-color: rgb(199, 199, 199);
+    padding-left: 5%;
+    width: 60%;
+    padding-right: 10%;
+    float: left;
+}
+.news {
+    background-color: rgb(179, 179, 179);
+    height: 250px;
+    margin: 2%;
+}
 #side {
     float: right;
     width: 20%;
