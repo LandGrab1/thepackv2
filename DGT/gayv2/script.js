@@ -3,8 +3,10 @@ let gay = 0;
 let gaypc = 10;
 let gayps = 0;
 let Tgay = 0;
+let score = 0;
 let gaya;
-
+let Gaypsprice = 30;
+let GaypspriceA = 30;
 
 function genprices() {
     var GaypspriceA = Gaypsprice.toFixed(2);
@@ -16,12 +18,13 @@ function clickG() {
     gay += gaypc;
     score += gaypc;
     console.log(gay);
-    Gaypsprice *= 1.3;
 }
 function bvbux(){
+    genprices();
     if(gay >= GaypspriceA){
         gayps += 1;
-        gay -= 30;
+        gay -= Gaypsprice;
+        Gaypsprice *= 1.3;
         genprices()
     }
     else {
