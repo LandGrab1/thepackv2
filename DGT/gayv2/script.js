@@ -25,7 +25,7 @@ function bvbux(){
         gayps += 1;
         gay -= Gaypsprice;
         Gaypsprice *= 1.3;
-        genprices()
+        genprices();
     }
     else {
         alert("your not gay enough to buy vbux")
