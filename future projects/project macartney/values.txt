@@ -1,0 +1,4 @@
+goals:
+	1. diverse gain from click, to diversify from other clicker games
+	2. easily changable and understandable code, ui and gens/clickers with possible user generated content in future
+	3.
