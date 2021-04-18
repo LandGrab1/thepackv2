@@ -1,0 +1,24 @@
+goals:
+	1. diverse gain from click, to diversify from other clicker games
+	2. easily changable and understandable code, ui and gens/clickers with possible user generated content in future
+	3. natural/rust etc theme
+	4. research system to make new buildings/ get new buffs
+	5. object weight system for drops to add further advanced upgrades and rng
+
+theme
+	aim: get to/explore solar system
+	background: green
+
+
+progression
+	forage [sticks, leafs, stones, 
+	>unlock craft [hatchet, 
+
+
+clicker/s
+	main
+	
+
+
+gens
+
