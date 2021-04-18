@@ -6,7 +6,7 @@ let Tgay = 0;
 let score = 0;
 let gaya;
 let Gaypsprice = 30;
-let GaypspriceA = 30;
+let GaypspriceA;
 
 function genprices() {
     var GaypspriceA = Gaypsprice.toFixed(2);
@@ -20,18 +20,17 @@ function clickG() {
     console.log(gay);
 }
 function bvbux(){
-    genprices();
-    if(gay >= GaypspriceA){
+    if(gay >= Gaypsprice){
         gayps += 1;
         gay -= Gaypsprice;
         Gaypsprice *= 1.3;
-        genprices();
     }
     else {
         alert("your not gay enough to buy vbux")
     }
+genprices();
 }
-
+genprices();
 
 
 
