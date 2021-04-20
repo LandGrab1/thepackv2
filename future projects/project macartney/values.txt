@@ -4,19 +4,21 @@ goals:
 	3. natural/rust etc theme
 	4. research system to make new buildings/ get new buffs
 	5. object weight system for drops to add further advanced upgrades and rng
-
-theme
-	aim: get to/explore solar system
+	6. changing themes when you research final object
+1st theme
+	aim: primative
 	background: green
 
 
 progression
-	forage [sticks, leafs, stones, 
-	>unlock craft [hatchet, 
-
+	forage [sticks, leafs, stones]
+	>unlock craft [hatchet, pickaxe]
+	>unlock mine[rock, limestone, metal ore, 
 
 clicker/s
-	main
+	forage
+	mine
+	chop trees
 	
 
 
