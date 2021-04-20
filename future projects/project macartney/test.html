@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+        <style>a:link {
+            text-decoration: none;
+        }
+        a:visited {
+            text-decoration: none;
+        }
+        #top {
+            background-color: rgb(100, 100, 100);
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            justify-content: center;
+        }
+        .name {
+            text-align: left;
+            font-size: 40px;
+            font-weight: 700;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+        }
+        .links {
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            color: blanchedalmond;
+            text-align: center;
+            float: right;
+            width: 20%;
+        }
+        #banner {
+            background-color: rgb(100, 100, 100);
+        }
+        #wrapper {
+            background-color: rgb(199, 199, 199);
+        }
+        body {
+            margin: 0px;
+            background-color: rgb(199, 199, 199);
+        }
+        #mainarea {
+            background-color: rgb(199, 199, 199);
+        }
+        #main {
+            background-color: rgb(199, 199, 199);
+            padding-left: 10%;
+            width: 80%;
+            padding-right: 10%;
+        }
+        #footer {
+            background-color: black;
+            height: 30px;
+            width: 100%;
+        }
+        .footertext {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            background-color: black;
+            float:inline-end;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }</style>
+        <script>
+            let clicks = 0;
+            function click() {
+                clicks += 1;
+                alert("clicks");
+                document.getElementById("clickcounter").innerHTML = clicks;
+            }
+        </script>
+		<script data-ad-client="ca-pub-6258429673208786" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	</head>
+	<body>
+		<div id = "wrapper">
+			<div id ="top">
+					<j class = "name" >The Pack V2</j>
+					<a class = "links" href="index.html">Home</a>
+					<a class = "links" href="DGT.html">DGT Projects</a>
+					<a class = "links" href="music.html">Music</a>
+
+				</div>
+				<div id="mainarea">
+                    <div id = "main">
+                        <button onclick="click()">click</button>
+                        <div id="clickcounter"></div>
+
+
+                    </div>
+			    </div>
+					<div  class="footertext">
+					admin contact info: landgrab@thepackv2.com
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
