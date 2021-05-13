@@ -37,14 +37,55 @@ body {
     margin: 0px;
     background-color: rgb(30, 255, 0);
 }
-#mainarea {
-    background-color: rgb(30, 255, 0);
-}
 #main {
     background-color: rgb(30, 255, 0);
-    padding-left: 10%;
-    width: 80%;
-    padding-right: 10%;
+    padding-left: 15%;
+    width: 70%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftside {
+   display: flex;
+   justify-content: center;
+   height: 80vh;
+   background-color: black;
+   width: 50%;
+   margin: 5px;
+}
+#gens {
+    margin: 10px;
+    width: 60%;
+    height: calc(100% - 20px);
+    background-color: blue;
+}
+#inventory {
+    margin: 10px;
+    width: 40%;
+    height: calc(100% - 20px);
+    background-color: yellow;
+}
+#rightside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    background-color: black;
+}
+#list {
+    width: calc(100% - 20px);
+    background-color: purple;
+    height: 10%;
+    margin: 10px;
+}
+#menu {
+    width: calc(100% - 20px);
+    background-color: pink;
+    height: 90%;
+    margin: 10px;
 }
 #footer {
     background-color: black;
