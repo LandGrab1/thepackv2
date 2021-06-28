@@ -22,14 +22,14 @@ var currentstate = [
     {0:"n",1:"n",2:"n",3:"n",4:"n",5:"n",6:"n",7:"n",8:"n",9:"n",},
     {0:"n",1:"n",2:"n",3:"n",4:"n",5:"n",6:"n",7:"n",8:"n",9:"n",},
 ]
-tempstate1 = currentstate[1];
-currentstate[0] = currentstate[1];
-tempstate2 = currentstate[2];
-currentstate[2] = tempstate1;
-tempstate1 =  currentstate[3];
-currentstate[3] = tempstate2
-currentstate[1][4] = "A";
-console.log(currentstate[2]);
-function fall(){
 
+function fall(){
+    tempstate1 = currentstate[1];
+    currentstate[1] = currentstate[0];
+    tempstate2 = currentstate[2];
+    currentstate[2] = tempstate1;
+    tempstate1 =  currentstate[3];
+    currentstate[3] = tempstate2
+    // currentstate[1][4] = "A";
+    console.log(currentstate[2]);
 }
