@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    height: 99vh;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+#grid {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    width: 200px;
+}
+#grid div{
+    border: 1px grey solid;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
