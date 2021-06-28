@@ -31,7 +31,6 @@ function load(){
     }
     i1 = 0;
     i2 = 0;
-    console.log(currentstate);
 }
 
 let tt2 = 2;
@@ -39,18 +38,22 @@ let tt1 = 1;
 var tempstate1 = [];
 let tempstate2 = currentstate[0];
 function fall(){
-    console.log(currentstate);
-    for (let tt1 = 1; tt1 < 19;) {
+    for (let tt1 = 1; tt1 < 20;) {
         console.log(tt1, tt2);
         tempstate1 = currentstate[tt1];
         currentstate[tt1] = tempstate2;
+        if (tt2 < 20){
         tempstate2 = currentstate[tt2];
         currentstate[tt2] = tempstate1;
+        }
         tt1+=2;
         tt2+=2;
     }
     tt2 = 2;
     tt1 = 1;
+    
+    //this is where the top row is generated
+
     // tempstate1 = currentstate[1];
     // currentstate[1] = currentstate[0];
     // tempstate2 = currentstate[2];
